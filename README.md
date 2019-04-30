@@ -1,6 +1,7 @@
 # Circular Buffer implementation with mmap(2)
 
-This circular buffer uses mmap to ease the logic behind the caller which
+This is a [circular buffer](https://en.wikipedia.org/wiki/Circular_buffer)
+implementation using mmap to ease the logic behind the caller which
 needs to know if the polled item crosses the maximum size of the
 underlying array.
 
